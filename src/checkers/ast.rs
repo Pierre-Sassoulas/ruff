@@ -2611,7 +2611,7 @@ where
                 {
                     pylint::rules::unnecessary_direct_lambda_call(self, expr, func);
                 }
-                if self.settings.rules.enabled(&Rule::UseSysExit) {
+                if self.settings.rules.enabled(&Rule::ConsiderUsingSysExit) {
                     pylint::rules::use_sys_exit(self, func);
                 }
 

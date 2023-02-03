@@ -13,7 +13,7 @@ pub use unnecessary_direct_lambda_call::{
     unnecessary_direct_lambda_call, UnnecessaryDirectLambdaCall,
 };
 pub use use_from_import::{use_from_import, ConsiderUsingFromImport};
-pub use use_sys_exit::{use_sys_exit, UseSysExit};
+pub use use_sys_exit::{use_sys_exit, ConsiderUsingSysExit};
 pub use used_prior_global_declaration::{
     used_prior_global_declaration, UsedPriorGlobalDeclaration,
 };
@@ -33,7 +33,7 @@ mod too_many_args;
 mod too_many_statements;
 mod unnecessary_direct_lambda_call;
 mod use_from_import;
-mod use_sys_exit;
+mod consider_using_sys_exit;
 mod used_prior_global_declaration;
 mod useless_else_on_loop;
 mod useless_import_alias;
