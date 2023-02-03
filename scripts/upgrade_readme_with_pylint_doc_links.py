@@ -1,7 +1,7 @@
 import re
 
 PYLINT_DESCRIPTION_REGEX = re.compile(
-    r"\|\n\| PL(?P<msgid>[CEWR][0-9]{4}) \| (?P<symbol>[a-z\-]+) \|"
+    r"\|\n\| PL(?P<msgid>[CEWR][0-9]{4}) \| (?P<symbol>[a-z\-]+) \|",
 )
 PREFIX_TO_URL = {
     "F": "fatal",  # should never be used

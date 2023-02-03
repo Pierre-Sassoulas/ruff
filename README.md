@@ -1322,8 +1322,6 @@ For more, see [pygrep-hooks](https://github.com/pre-commit/pygrep-hooks) on GitH
 
 For more, see [Pylint](https://pypi.org/project/pylint/) on PyPI.
 
-[//]: # (Do not create the link yourself i.e. write '| PLR1234 | my-pylint-symbol |')
-
 #### Convention (PLC)
 
 | Code | Name | Message | Fix |
@@ -1351,7 +1349,7 @@ For more, see [Pylint](https://pypi.org/project/pylint/) on PyPI.
 | PLR0913 | [too-many-args](https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/too-many-args.html) | Too many arguments to function call ({c_args}/{max_args}) |  |
 | PLR0915 | [too-many-statements](https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/too-many-statements.html) | Too many statements ({statements}/{max_statements}) |  |
 | PLR1701 | [consider-merging-isinstance](https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/consider-merging-isinstance.html) | Merge these isinstance calls: `isinstance({obj}, ({types}))` |  |
-| PLR1722 | [use-sys-exit](https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/use-sys-exit.html) | Use `sys.exit()` instead of `{name}` | 🛠 |
+| PLR1722 | [consider-using-sys-exit](https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/consider-using-sys-exit.html) | Use `sys.exit()` instead of `{name}` | 🛠 |
 | PLR2004 | [magic-value-comparison](https://pylint.readthedocs.io/en/latest/user_guide/messages/refactor/magic-value-comparison.html) | Magic value used in comparison, consider replacing {value} with a constant variable |  |
 
 #### Warning (PLW)
